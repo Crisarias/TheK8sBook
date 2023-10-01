@@ -6,7 +6,7 @@ spec:
   volumes:
   - name: nfs
     persistentVolumeClaim:
-      claimName: pvc-nfs
+      claimName: nfs-pvc
   containers:
   - name: ubuntu-ctr
     image: mcr.microsoft.com/oss/nginx/nginx:1.19.5

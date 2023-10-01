@@ -22,3 +22,10 @@ git remote set-head origin -a
 ## Errata
 
 - page 155. typo: _incomng_ should be _incoming_
+
+## Operator SDK Installation
+
+https://github.com/operator-framework/operator-sdk
+
+https://sdk.operatorframework.io/docs/building-operators/golang/installation/
+

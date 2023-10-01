@@ -28,6 +28,12 @@ nodes:
   - containerPort: 2049
     hostPort: 2049
     protocol: TCP
+  - containerPort: 30685
+    hostPort: 30685
+    protocol: TCP
+  - containerPort: 30686
+    hostPort: 30686
+    protocol: TCP
 - role: worker
 - role: worker
 - role: worker
