@@ -8,4 +8,8 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 
 # Install NFS CSI
 
-curl -skSL https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/v4.4.0/deploy/install-driver.sh | bash -s v4.3.0 --
+curl -skSL https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/v4.3.0/deploy/install-driver.sh | bash -s v4.3.0 --
+
+curl -skSL https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/v4.5.0/deploy/install-driver.sh | bash -s v4.5.0 --
+
+apt-get install -y nfs-common
